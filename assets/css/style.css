@@ -106,17 +106,19 @@ li {
 /*=================================
   Header styling starts here
 =================================*/
-header{
-  height: 50vh;
-  background-image: url('https://via.placeholder.com/1920x600');
-}
+/* header{
+ 
+} */
 header>div{
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  height: 50vh;
+  background-image: url('https://via.placeholder.com/1920x600');
 }
 .header-logo>a{
+  margin-left: 50px;
   color:white;
   font-size: 4rem;
 
@@ -124,6 +126,7 @@ header>div{
   text-shadow: 0 4px black;
 }
 .header-logo>p{
+  margin-left: 50px;
   color:white;
   font-size: 1.5rem;
   text-shadow: 0 2px 2px black;
@@ -134,12 +137,13 @@ nav{
  /* top:100%; */
 /* position: absolute; */
 
-
+border-bottom: 10px solid #056499;
  display: block;
+
 }
 .navmenu{
   display: flex;
-  background-color:rgba(0, 0, 0, 0.5) ;
+  background-color:rgba(0, 0, 0, 0.7) ;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -196,6 +200,9 @@ flex-wrap: wrap;
   text-decoration: none;
 color:#99a0a7;
 }
+.gallery-img:hover{
+  transform: scale(1.5);
+}
 .gallery-img-caption{
   margin-top: 20px;
   margin-bottom: 50px;
@@ -225,8 +232,16 @@ color:#99a0a7;
 .pagination-item>a{
   text-decoration: none;
   color:#a8a7a6;
-}
 
+}
+.pagination-item:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+  background-color:#076599;
+}
+.pagination-item>a:hover{
+  color:white;
+}
 ul.pagination:first-child{
   color: white;
 }
@@ -237,6 +252,11 @@ ul.pagination:first-child{
 }
 .need-help-article>figure{
   flex-basis: 30%;
+}
+
+.need-help-article>figure>img{
+  margin-top: 20px;
+  margin-left: 20px;
 }
 .need-help-div>figure{
   display: block;
@@ -273,6 +293,14 @@ color:white;
   color: white;
   
 }
+
+.need-help-div>a:hover{
+  background-color: white;
+  color:#076599;
+  font-weight: bold;
+  padding-left: 40px;
+}
+
 /*=================================
   main styling ends here
 =================================*/
