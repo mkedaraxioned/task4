@@ -132,8 +132,9 @@ nav{
   /* position: absolute; */
   /* float: bottom; */
  /* top:100%; */
- top:50%;
-transform: translateY(50%);
+/* position: absolute; */
+
+
  display: block;
 }
 .navmenu{
@@ -141,6 +142,7 @@ transform: translateY(50%);
   background-color:rgba(0, 0, 0, 0.5) ;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .navitem:first-child{
   padding-left: 25px;
@@ -163,14 +165,114 @@ transform: translateY(50%);
 /*=================================
   main styling starts here
 =================================*/
+.welcome-section{
+  background-color: white;
+}
+.welcome{
+  margin-top: 100px;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color:#a8a7a6;
 
+}
 
+.welcome-message{
+  margin-top: 10px;
+  margin-bottom: 50px;
+  font-size: 1.2rem;
+  color: #a8a7a6;
+}
+.welcome-gallery{
+  display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    width: 100%;
+flex-wrap: wrap;
+}
+.gallery-item{
+  flex-basis: 25%;
+}
+.gallery-item>a{
+  text-decoration: none;
+color:#99a0a7;
+}
+.gallery-img-caption{
+  margin-top: 20px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
 
+.pagination{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.pagination-item{
+  width:20px;
+  height: 20px;
+  margin:50px 10px 100px 10px;
+  padding:10px;
+  display: block;
+  background-color: #ededed;
+  text-align: center;
+}
+.pagination-item:first-of-type{
+  background-color: #076599;
+}
+.pagination-item>a{
+  text-decoration: none;
+  color:#a8a7a6;
+}
 
+ul.pagination:first-child{
+  color: white;
+}
 
-
-
-
+.need-help-article{
+  background-color: #076599;
+  display: flex;
+}
+.need-help-article>figure{
+  flex-basis: 30%;
+}
+.need-help-div>figure{
+  display: block;
+  margin:0 auto;
+}
+.need-help-div{
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+.need-help-div>h2{
+  margin-left: 50px;
+  margin-top: 50px;
+font-size:2rem;
+color:white;
+}
+.need-help-div>p{
+  
+  margin-top: 20px;
+  margin-left: 50px;
+  color:white;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+.need-help-div>a{
+  width: 100px;
+  padding:15px 30px;
+  margin-left: 50px;
+  margin-top: 50px;
+  border:2px solid white;
+  text-decoration: none;
+  color: white;
+  
+}
 /*=================================
   main styling ends here
 =================================*/
@@ -191,8 +293,20 @@ transform: translateY(50%);
 
 /*media query starts*/
 /*media query for 995px starts here*/
-@media only screen and (max-width: 995px) {
+@media only screen and (min-width:768px) and (max-width: 995px) {
 
-
+  .gallery-item{
+    /* flex:25%; */
+    flex-basis: 50%;
+  }
+  
 
 }  
+
+@media only screen and (max-width:768px){
+  .gallery-item{
+  
+    flex-basis: 100%;
+  }
+  
+}
