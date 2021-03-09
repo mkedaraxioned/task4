@@ -106,10 +106,54 @@ li {
 /*=================================
   Header styling starts here
 =================================*/
+header{
+  height: 50vh;
+  background-image: url('https://via.placeholder.com/1920x600');
+}
+header>div{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.header-logo>a{
+  color:white;
+  font-size: 4rem;
 
-
-
-
+  text-transform: uppercase;
+  text-shadow: 0 4px black;
+}
+.header-logo>p{
+  color:white;
+  font-size: 1.5rem;
+  text-shadow: 0 2px 2px black;
+}
+nav{
+  /* position: absolute; */
+  /* float: bottom; */
+ /* top:100%; */
+ top:50%;
+transform: translateY(50%);
+ display: block;
+}
+.navmenu{
+  display: flex;
+  background-color:rgba(0, 0, 0, 0.5) ;
+  align-items: center;
+  justify-content: space-between;
+}
+.navitem:first-child{
+  padding-left: 25px;
+}
+.navitem:last-child{
+  padding-right: 25px;
+}
+.navitem>a{
+  padding:25px 40px;
+  display: inline-flex;
+  color: white;
+  font-size: 1.2rem;
+}
 
 
 /*=================================
