@@ -85,6 +85,7 @@ sub { bottom: -.25em; }
 body {
   box-sizing: border-box;
   font-family: sans-serif;
+  background-image: url("../../bg.jpg");
 }
 
 a { 
@@ -125,8 +126,8 @@ header>div{
   text-transform: uppercase;
   text-shadow: 0 4px black;
 }
-.header-logo>p{
-  margin-left: 50px;
+.header-logo>a>p{
+
   color:white;
   font-size: 1.5rem;
   text-shadow: 0 2px 2px black;
@@ -160,8 +161,12 @@ border-bottom: 10px solid #056499;
   color: white;
   font-size: 1.2rem;
 }
-
-
+.navitem>a:hover{
+  color:#3b75c3;
+}
+.active.navitem>a{
+  color:#3b75c3;
+}
 /*=================================
   Header styling ends here
 =================================*/  
@@ -169,11 +174,12 @@ border-bottom: 10px solid #056499;
 /*=================================
   main styling starts here
 =================================*/
-.welcome-section{
+.welcome-section>div{
   background-color: white;
 }
 .welcome{
-  margin-top: 100px;
+  padding-top: 100px;
+  padding-left: 50px;
   margin-bottom: 20px;
   font-size: 2rem;
   color:#a8a7a6;
@@ -183,10 +189,12 @@ border-bottom: 10px solid #056499;
 .welcome-message{
   margin-top: 10px;
   margin-bottom: 50px;
+  padding-left: 50px;
   font-size: 1.2rem;
   color: #a8a7a6;
 }
 .welcome-gallery{
+  margin-left: 50px;
   display: flex;
     justify-content: space-between;
     /* align-items: center; */
@@ -309,8 +317,18 @@ color:white;
   footer styling starts here
 =================================*/ 
 
+footer>div{
+  height: 10vh;
+  display: flex;
+  background-color: #333333;
+  justify-content: center;
+  align-items: center;
+}
 
-
+footer>div>p{
+  color:white;
+  font-size: 1.2rem;
+}
 
 
 
