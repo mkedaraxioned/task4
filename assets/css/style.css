@@ -111,11 +111,11 @@ li {
  
 } */
 header>div{
+  height: 50vh;
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 50vh;
   background-image: url('https://via.placeholder.com/1920x600');
 }
 .header-logo>a{
@@ -194,11 +194,11 @@ border-bottom: 10px solid #056499;
   color: #a8a7a6;
 }
 .welcome-gallery{
+  width: 100%;
   margin-left: 50px;
   display: flex;
     justify-content: space-between;
     /* align-items: center; */
-    width: 100%;
 flex-wrap: wrap;
 }
 .gallery-item{
@@ -228,8 +228,8 @@ color:#99a0a7;
 .pagination-item{
   width:20px;
   height: 20px;
-  margin:50px 10px 100px 10px;
   padding:10px;
+  margin:50px 10px 100px 10px;
   display: block;
   background-color: #ededed;
   text-align: center;
@@ -267,8 +267,8 @@ ul.pagination:first-child{
   margin-left: 20px;
 }
 .need-help-div>figure{
-  display: block;
   margin:0 auto;
+  display: block;
 }
 .need-help-div{
   height: 40vh;
@@ -303,10 +303,10 @@ color:white;
 }
 
 .need-help-div>a:hover{
+  padding-left: 40px;
   background-color: white;
   color:#076599;
   font-weight: bold;
-  padding-left: 40px;
 }
 
 /*=================================
