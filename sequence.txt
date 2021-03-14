@@ -1,0 +1,35 @@
+bdpo
+box layout
+dimentions
+position
+other
+
+
+max-width
+width
+min-with
+max-height
+height
+min-height
+
+
+
+padding
+margin
+border
+outline
+
+display
+vertical-align
+position
+z-index
+top
+right
+bottom
+left
+background-color
+color
+font properties
+other properties alphabetically
+
+padding left and padding right in fluid format so only in percentage
