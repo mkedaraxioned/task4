@@ -203,8 +203,8 @@ padding-right: 0;
 }
 
 .welcome-message{
-  margin-top: 38px;
-  margin-bottom: 50px;
+  margin-top: 30px;
+  margin-bottom: 81px;
   padding-left: 69px;
   line-height: 44px;
   font-size: 25px;
@@ -223,11 +223,14 @@ padding-right: 0;
 flex-wrap: wrap;
 }
 .gallery-item{
-  flex-basis: 25%;
+  flex-basis: 23.48%;
 }
 .gallery-item>a{
   text-decoration: none;
 color:#99a0a7;
+}
+.gallery-item>a>figure{
+  overflow: hidden;
 }
 .gallery-img:hover{
   transform: scale(1.5);
