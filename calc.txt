@@ -1,9 +1,9 @@
 9.45 left 10.5
 
-1388
-328
+1388    100%
+328  23.63%
 
-29
+29  2.08%
 
 
 .welcome-gallery {
@@ -21,4 +21,12 @@
     width: 23.63%;
     display: inline;
     margin-right: 2.88%;
+}
+
+.gallery-item {
+    /* flex-basis: 25%; */
+    width: 23.63%;
+    display: inline;
+    margin-right: 2.08%;
+    /* float: left; */
 }

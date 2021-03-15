@@ -401,21 +401,51 @@ footer>div>p{
 
   .gallery-item{
     /* flex:25%; */
-    flex-basis: 50%;
+    flex-basis: 48%;
   }
   .need-help-div>a{
     width: 100px;
     padding:15px 10px;
-    margin-left: 10px;
+    margin-left: 51px;
     margin-top: 10px;
     border:2px solid white;
     text-decoration: none;
     color: white;
     
   }
+  .need-help-article>figure>img {
+    width: 155px;
+    margin-bottom: 100px;
+    margin-left: 33px;
+}
 
 }  
 
+
+@media only screen and (max-width:320px){
+  .welcome-gallery {
+    width: 100%;
+    /* margin-left: 50px; */
+    /* align-items: center; */
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.gallery-item {
+    /* flex: 25%; */
+    flex-basis: 96%;
+}
+
+a {
+    /* display: inline-block; */
+        display: inline;
+
+    text-decoration: none;
+}
+
+
+}
 @media only screen and (max-width:768px){
   .gallery-item{
   
