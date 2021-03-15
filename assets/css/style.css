@@ -183,6 +183,11 @@ padding-right: 0;
 .active.navitem>a{
   color:#3b75c3;
 }
+
+.menu-bar{
+  display: none;
+}
+
 /*=================================
   Header styling ends here
 =================================*/  
@@ -414,10 +419,21 @@ footer>div>p{
     
   }
   .need-help-article>figure>img {
-    width: 155px;
+    width: 100px;
     margin-bottom: 100px;
     margin-left: 33px;
 }
+.navitem{
+  display: none;
+  padding: 0;
+}
+.menu-bar{
+display: block;
+cursor: pointer;
+float: right;
+margin-right: 25px;
+}
+
 
 }  
 
@@ -446,7 +462,7 @@ a {
 
 
 }
-@media only screen and (max-width:768px){
+/* @media only screen and (max-width:768px){
   .gallery-item{
   
     flex-basis: 100%;
@@ -466,4 +482,4 @@ a {
   }
 
   
-}
+} */
