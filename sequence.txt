@@ -33,3 +33,25 @@ font properties
 other properties alphabetically
 
 padding left and padding right in fluid format so only in percentage
+
+
+shelf
+.welcome-gallery {
+    width: 100%;
+    /* margin-left: 50px; */
+    /* align-items: center; */
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+}
+
+.gallery-item {
+    /* flex: 25%; */
+    flex-basis: 96%;
+}
+
+a {
+    /* display: inline-block; */
+    text-decoration: none;
+}
+
