@@ -459,6 +459,87 @@ a {
 
     text-decoration: none;
 }
+.navitem{
+  display: none;
+  padding: 0;
+}
+.menu-bar{
+display: block;
+cursor: pointer;
+float: right;
+margin-right: 25px;
+}
+.welcome {
+  padding-top: 112px;
+  padding-left: 22px;
+}
+
+.welcome-message {
+  margin-right: 10px;
+  padding-left: 22px;
+  font-size: 25px;
+/*line-height: 29px;
+  font-size: 20px;*/
+}
+
+.welcome-gallery-div {
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+
+.pagination-item>a {
+  padding: 7px;
+}
+
+.need-help-article {
+  flex-wrap: wrap;
+}
+
+.need-help-article>figure {
+
+  width: 95.5%;
+}
+
+.need-help-article>figure>img {
+ 
+  margin-left: 37px;
+}
+.need-help-div {
+  /* height: 40vh; */
+  /* align-items: center; */
+  width: 100%;
+
+}
+
+
+
+
+.need-help-div>h2 {
+  margin-left: 50px;
+  /* margin-top: 50px; */
+  font-size: 34px;
+  color: white;
+  width: 70%;
+}
+
+.need-help-div>p {
+  margin-top: 16px;
+  margin-left: 33px;
+  margin-right: 20px;
+  font-size: 20px;
+  line-height: 33px;
+}
+
+
+.need-help-div>a {
+
+  margin-left: 24px;
+  margin-top: 34px;
+
+   display: inline-block;
+}
+
 
 
 }
